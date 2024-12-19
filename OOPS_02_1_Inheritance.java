@@ -14,6 +14,15 @@ class Vehicle {
     int wheels;
     String model;
 
+    public Vehicle() {
+        System.out.println("Vehicle Created.");
+    }
+
+    public Vehicle(int wheels) {
+        this.wheels = wheels;
+        System.out.println("Vehicle with " + wheels + " wheels created.");
+    }
+
     void start() {
         System.out.println("Vehicle is starting...");
     }
