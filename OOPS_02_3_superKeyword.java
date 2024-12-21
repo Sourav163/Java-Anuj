@@ -18,6 +18,7 @@ class Auto extends Vehicle {
         super.start(); // Accesses the immediate parent class's ("Vehicle") start()
         start();
         System.out.println("Auto Wheels = " + super.wheels); // Same as "wheels"
+//        super(3); --> super() can be called only in the first line.
     }
 
     public void start() {
