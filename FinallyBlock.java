@@ -1,6 +1,6 @@
 package Java_with_Anuj_Bhaiya;
 
-public class OOPS_06_2_FinallyBlock {
+public class FinallyBlock {
     public static void main(String[] args) {
         int[] a = new int[5];
 
