@@ -2,7 +2,7 @@ package Java_with_Anuj_Bhaiya;
 
 import java.util.Scanner;
 
-public class OOPS_06_3_throwKeyword {
+public class throwKeyword {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your age :  ");
