@@ -1,6 +1,6 @@
 package Java_with_Anuj_Bhaiya;
 
-public class OOPS_06_3_throwsKeyword {
+public class throwsKeyword {
     public static void main(String[] args) {
         int[] arr = new int[5];
         int a = 8;
