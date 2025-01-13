@@ -1,6 +1,6 @@
 package Java_with_Anuj_Bhaiya;
 
-public class OOPS_06_1_ExceptionHandling {
+public class ExceptionHandling {
     public static void main(String[] args) {
         int[] arr = new int[5];
 
