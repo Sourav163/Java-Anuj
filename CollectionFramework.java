@@ -2,6 +2,7 @@ package Java_with_Anuj_Bhaiya;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class CollectionFramework {
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class CollectionFramework {
         list1.remove(1); // if "int", treated as index.
         System.out.println("list1.remove(1), list1 = " + list1);
 
-        List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>(); // same, as core object is "List".
         list2.add(1);
         list2.add(2);
         list2.add(3);
