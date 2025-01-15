@@ -1,12 +1,13 @@
 package Java_with_Anuj_Bhaiya;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 public class ListInterface {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
+//        List<Integer> list = new LinkedList<>();
+//        List<Integer> list = new Vector<>();
+//        List<Integer> list = new Stack<>();
 
         list.add(10);
         list.add(20);
@@ -63,5 +64,20 @@ public class ListInterface {
 
         System.out.println("fruits = " + fruits);
         System.out.println("fruits.subList(1, 3) = " + fruits.subList(1, 3));
+
+        // Stack Implementation :
+        System.out.println();
+        Stack<String> letters = new Stack<>();
+        letters.push("A");
+        letters.push("B");
+        letters.push("C");
+        letters.push("D");
+        System.out.println("letters = " + letters);
+        System.out.println("letters.pop() = " + letters.pop());
+        System.out.println("letters = " + letters);
+        System.out.println("letters.peek() = " + letters.peek());
+        System.out.println("letters = " + letters);
+        System.out.println("letters.empty() = " + letters.empty());
+        System.out.println("letters.isEmpty() = " + letters.isEmpty()); // "List" method
     }
 }
