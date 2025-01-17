@@ -1,7 +1,6 @@
 package Java_with_Anuj_Bhaiya;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 
 public class ArrayDequeImplementation {
     public static void main(String[] args) {
