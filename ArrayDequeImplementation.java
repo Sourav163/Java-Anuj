@@ -24,5 +24,34 @@ public class ArrayDequeImplementation {
         System.out.println("array_deque = " + array_deque);
         System.out.println("array_deque.pollFirst() = " + array_deque.pollFirst());
         System.out.println("array_deque = " + array_deque);
+        System.out.println();
+
+        // Stack operations using ArrayDeque :
+        System.out.println("Stack operations using ArrayDeque :");
+        ArrayDeque<Integer> stack = new ArrayDeque<>();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.push(50);
+
+        System.out.println("\tstack = " + stack);
+        System.out.println("\tstack.pop() = " + stack.pop());
+        System.out.println("\tstack = " + stack);
+        System.out.println("\tstack.peek() = " + stack.peek());
+        System.out.println("\tstack = " + stack);
+
+        // Queue operations using ArrayDeque :
+        System.out.println("Queue operations using ArrayDeque :");
+        ArrayDeque<Integer> queue = new ArrayDeque<>();
+        queue.offer(10);
+        queue.offer(20);
+        queue.offer(30);
+        queue.offer(40);
+        queue.offer(50);
+
+        System.out.println("\tqueue = " + queue);
+        System.out.println("\tqueue.poll() = " + queue.poll());
+        System.out.println("\tqueue = " + queue);
     }
 }
